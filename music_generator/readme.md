@@ -13,7 +13,7 @@
 
 ```CUDA_VISIBLE_DEVICES=<GPU #> python train.py --restart_dir <model name> --conditioning <none or continuous_concat>```
 
-<model name> : e.g. 20230531-145111 in ./output/
+* model name: e.g. 20230531-145111 in ./output/
 
 ---
 ### 4. generate (demo) :
