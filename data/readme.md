@@ -19,7 +19,7 @@ https://www.kaggle.com/datasets/imsparsh/deam-mediaeval-dataset-emotional-analys
 
 XED dataset
 
-* XED dataset download
+#### XED dataset download
 
 https://github.com/Helsinki-NLP/XED
 
@@ -27,6 +27,6 @@ https://github.com/Helsinki-NLP/XED
 
 IMSDb에서 추출한 dialogues 전처리 결과물
 
-* IMSDb dataset link
+#### IMSDb dataset link
 
 https://imsdb.com/
