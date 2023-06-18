@@ -1,0 +1,137 @@
+Using GPU
+Number of tokens: 1007
+Using automatic mixed precision
+Model loaded from ../output/continuous_concat/model.pt
+========================================================================================================================
+    - conditioning : continuous_concat
+    - data_folder : ../data_files/data
+    - full_dataset : False
+    - n_layer : 4
+    - n_head : 4
+    - d_model : 256
+    - d_condition : 192
+    - d_inner : 1024
+    - tgt_len : 1216
+    - max_gen_input_len : -1
+    - gen_len : 512
+    - temp_note : 1.2
+    - temp_rest : 1.2
+    - n_bars : -1
+    - no_pad : False
+    - eval_tgt_len : 1216
+    - dropout : 0.1
+    - overwrite_dropout : False
+    - lr : 2e-05
+    - overwrite_lr : False
+    - scheduler : constant
+    - lr_min : 5e-06
+    - lr_max : 0.0005
+    - warmup_step : 0
+    - decay_rate : 0.5
+    - clip : 1.0
+    - batch_size : 1
+    - accumulate_step : 1
+    - seed : -1
+    - no_cuda : False
+    - log_step : 50
+    - eval_step : 200
+    - max_eval_step : 1000
+    - gen_step : 400
+    - work_dir : ../output/20230609-183821
+    - restart_dir : ../output/continuous_concat
+    - debug : False
+    - max_step : 2000
+    - overfit : False
+    - find_lr : False
+    - num_workers : 4
+    - bar_start_prob : 0.5
+    - n_samples : -1
+    - max_transpose : 3
+    - no_amp : False
+    - reset_scaler : False
+    - exhaustive_eval : False
+    - regression : False
+    - regression_dir : None
+    - batch_chunk : -1
+    - d_embed : 256
+    - vocab_size : 1007
+    - n_all_param : 145078511
+========================================================================================================================
+#params = 145078511
+Run started at 09-06-2023 18:38
+| Epoch   0 step        0 |      1 sequences  | 0.0 h | lr 2.00e-05 | ms/batch   24 | loss  3.3652
+------------------------------------------------------------------------------------------------------------------------
+| Eval    0 step        0 | now: 09-06 - 18:39 | 0.0 h| valid loss  3.7941 | ppl 44.438
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step       50 |     51 sequences  | 0.0 h | lr 2.00e-05 | ms/batch 1668 | loss  3.2324
+| Epoch   0 step      100 |    101 sequences  | 0.0 h | lr 2.00e-05 | ms/batch 1176 | loss  3.1608
+| Epoch   0 step      150 |    151 sequences  | 0.1 h | lr 2.00e-05 | ms/batch 1176 | loss  3.0892
+| Epoch   0 step      200 |    201 sequences  | 0.1 h | lr 2.00e-05 | ms/batch 1188 | loss  3.0491
+------------------------------------------------------------------------------------------------------------------------
+| Eval    1 step      200 | now: 09-06 - 18:43 | 0.1 h| valid loss  2.9834 | ppl 19.754
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step      250 |    251 sequences  | 0.1 h | lr 2.00e-05 | ms/batch 1908 | loss  2.9634
+| Epoch   0 step      300 |    301 sequences  | 0.1 h | lr 2.00e-05 | ms/batch 1192 | loss  3.0516
+| Epoch   0 step      350 |    351 sequences  | 0.1 h | lr 2.00e-05 | ms/batch 1183 | loss  2.9807
+| Epoch   0 step      400 |    401 sequences  | 0.2 h | lr 2.00e-05 | ms/batch 2967 | loss  3.0048
+------------------------------------------------------------------------------------------------------------------------
+| Eval    2 step      400 | now: 09-06 - 18:49 | 0.2 h| valid loss  2.9038 | ppl 18.243
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step      450 |    451 sequences  | 0.2 h | lr 2.00e-05 | ms/batch 1920 | loss  2.9030
+| Epoch   0 step      500 |    501 sequences  | 0.2 h | lr 2.00e-05 | ms/batch 1192 | loss  2.9441
+| Epoch   0 step      550 |    551 sequences  | 0.2 h | lr 2.00e-05 | ms/batch 1188 | loss  2.9811
+| Epoch   0 step      600 |    601 sequences  | 0.3 h | lr 2.00e-05 | ms/batch 1187 | loss  2.9203
+------------------------------------------------------------------------------------------------------------------------
+| Eval    3 step      600 | now: 09-06 - 18:54 | 0.3 h| valid loss  2.8969 | ppl 18.118
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step      650 |    651 sequences  | 0.3 h | lr 2.00e-05 | ms/batch 1918 | loss  2.9545
+| Epoch   0 step      700 |    701 sequences  | 0.3 h | lr 2.00e-05 | ms/batch 1194 | loss  2.9058
+| Epoch   0 step      750 |    751 sequences  | 0.3 h | lr 2.00e-05 | ms/batch 1191 | loss  2.9229
+| Epoch   0 step      800 |    801 sequences  | 0.4 h | lr 2.00e-05 | ms/batch 2970 | loss  2.7912
+------------------------------------------------------------------------------------------------------------------------
+| Eval    4 step      800 | now: 09-06 - 19:00 | 0.4 h| valid loss  2.8777 | ppl 17.773
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step      850 |    851 sequences  | 0.4 h | lr 2.00e-05 | ms/batch 1917 | loss  2.9580
+| Epoch   0 step      900 |    901 sequences  | 0.4 h | lr 2.00e-05 | ms/batch 1195 | loss  2.9092
+| Epoch   0 step      950 |    951 sequences  | 0.4 h | lr 2.00e-05 | ms/batch 1190 | loss  2.9129
+| Epoch   0 step     1000 |   1001 sequences  | 0.4 h | lr 2.00e-05 | ms/batch 1195 | loss  2.8798
+------------------------------------------------------------------------------------------------------------------------
+| Eval    5 step     1000 | now: 09-06 - 19:04 | 0.4 h| valid loss  2.8636 | ppl 17.525
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step     1050 |   1051 sequences  | 0.5 h | lr 2.00e-05 | ms/batch 1918 | loss  2.8875
+| Epoch   0 step     1100 |   1101 sequences  | 0.5 h | lr 2.00e-05 | ms/batch 1199 | loss  2.8740
+| Epoch   0 step     1150 |   1151 sequences  | 0.5 h | lr 2.00e-05 | ms/batch 1195 | loss  2.8175
+| Epoch   0 step     1200 |   1201 sequences  | 0.5 h | lr 2.00e-05 | ms/batch 2971 | loss  2.8128
+------------------------------------------------------------------------------------------------------------------------
+| Eval    6 step     1200 | now: 09-06 - 19:10 | 0.5 h| valid loss  2.8315 | ppl 16.971
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step     1250 |   1251 sequences  | 0.6 h | lr 2.00e-05 | ms/batch 1921 | loss  2.8003
+| Epoch   0 step     1300 |   1301 sequences  | 0.6 h | lr 2.00e-05 | ms/batch 1196 | loss  2.8730
+| Epoch   0 step     1350 |   1351 sequences  | 0.6 h | lr 2.00e-05 | ms/batch 1196 | loss  2.8348
+| Epoch   0 step     1400 |   1401 sequences  | 0.6 h | lr 2.00e-05 | ms/batch 1193 | loss  2.8411
+------------------------------------------------------------------------------------------------------------------------
+| Eval    7 step     1400 | now: 09-06 - 19:15 | 0.6 h| valid loss  2.8193 | ppl 16.765
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step     1450 |   1451 sequences  | 0.6 h | lr 2.00e-05 | ms/batch 1921 | loss  2.8324
+| Epoch   0 step     1500 |   1501 sequences  | 0.6 h | lr 2.00e-05 | ms/batch 1193 | loss  2.8802
+| Epoch   0 step     1550 |   1551 sequences  | 0.7 h | lr 2.00e-05 | ms/batch 1197 | loss  2.8381
+| Epoch   0 step     1600 |   1601 sequences  | 0.7 h | lr 2.00e-05 | ms/batch 2964 | loss  2.8789
+------------------------------------------------------------------------------------------------------------------------
+| Eval    8 step     1600 | now: 09-06 - 19:21 | 0.7 h| valid loss  2.8279 | ppl 16.909
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   0 step     1650 |   1651 sequences  | 0.7 h | lr 2.00e-05 | ms/batch 1924 | loss  2.8255
+| Epoch   0 step     1700 |   1701 sequences  | 0.8 h | lr 2.00e-05 | ms/batch 1195 | loss  2.8211
+| Epoch   1 step     1750 |   1751 sequences  | 0.8 h | lr 2.00e-05 | ms/batch 1197 | loss  2.8035
+| Epoch   1 step     1800 |   1801 sequences  | 0.8 h | lr 2.00e-05 | ms/batch 1189 | loss  2.8064
+------------------------------------------------------------------------------------------------------------------------
+| Eval    9 step     1800 | now: 09-06 - 19:26 | 0.8 h| valid loss  2.8015 | ppl 16.470
+------------------------------------------------------------------------------------------------------------------------
+| Epoch   1 step     1850 |   1851 sequences  | 0.8 h | lr 2.00e-05 | ms/batch 1920 | loss  2.8246
+| Epoch   1 step     1900 |   1901 sequences  | 0.8 h | lr 2.00e-05 | ms/batch 1198 | loss  2.7834
+| Epoch   1 step     1950 |   1951 sequences  | 0.8 h | lr 2.00e-05 | ms/batch 1190 | loss  2.7704
+| Epoch   1 step     2000 |   2001 sequences  | 0.9 h | lr 2.00e-05 | ms/batch 2973 | loss  2.7947
+------------------------------------------------------------------------------------------------------------------------
+| Eval   10 step     2000 | now: 09-06 - 19:32 | 0.9 h| valid loss  2.8133 | ppl 16.665
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+End of training

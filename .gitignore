@@ -1,0 +1,14 @@
+__pycache__
+.vscode
+*.idea
+.cache
+demo/
+*.mp3
+*.wav
+*.mid
+data/final_ppt_mid/
+data/DEAM/arousal.csv
+data/DEAM/valence.csv
+github_remote.ipynb
+*.pt
+*.bin
