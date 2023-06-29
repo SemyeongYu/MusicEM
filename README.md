@@ -1,5 +1,5 @@
 # MusicEM: Music based on Emotion sequence from the Movie dialogues
-EE474 ITM Term Project - Team 2
+EE474 ITM Term Project - Team 2 Seuongwoo Lee, Jeonghyun Kim, Semyeong Yu
 
 1. ```data```
  
